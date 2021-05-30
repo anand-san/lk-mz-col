@@ -7,6 +7,6 @@ export const useStyles = makeStyles({
         height: props.height || "70vh",
         width: "100vw",
         marginRight: props.margin || 0,
-        marginLeft: props.margin || 0
+        marginLeft: props.margin || 0,
     }),
   });

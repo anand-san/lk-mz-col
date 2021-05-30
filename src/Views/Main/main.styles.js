@@ -6,7 +6,7 @@ export const useStyles = makeStyles({
     margin:"50px",
     padding: "80px",
     backgroundColor: "#333",
-    color: "#FFF"
+    color: "#FFF",
   },
   colorRed: {
     color:"red"

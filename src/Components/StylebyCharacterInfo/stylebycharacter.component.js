@@ -8,7 +8,7 @@ const StylebyCharacterInfo = props => {
         <div>
             <img src={props.image} className={classes.image} alt="character" width="250px" height="250px"/>
             <h3>{props.description}</h3>
-            <img src="/images/goggles.png" alt="goggles" width="80%"/>
+            <img src="images/goggles.png" alt="goggles" width="65%"/>
             <Button
                   variant="contained"
                   className={classes.roundedButton}

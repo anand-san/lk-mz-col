@@ -16,17 +16,17 @@ export default function Header() {
             <Grid container className={classes.infoContainer}>
               <Grid item xs={5}>
                 <img
-                  src="/images/mirzapurlogo.png"
+                  src="images/mirzapurlogo.png"
                   alt="mirzapur_logo"
                   width="100%"
                 ></img>
               </Grid>
-              <Grid item xs={0}>
+              <Grid item xs={false}>
                 <div className="vertical-line"></div>
               </Grid>
               <Grid item xs={5}>
                 <img
-                  src="/images/goggles.png"
+                  src="images/goggles.png"
                   alt="mirzapur_logo"
                   width="100%"
                 ></img>

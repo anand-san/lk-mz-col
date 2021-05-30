@@ -12,13 +12,13 @@ export default function HelpBox() {
           <h2>Looking for help?</h2>
           <hr style={{ width: 60, marginBottom: 60, margin: 10 }} />
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} lg={6}>
           <h3>We are available by phone Monday to Sunday from 9AM to 8PM.</h3>
           <h3>Please feel free to call us if you have any queries.</h3>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} lg={6}>
           <Grid container spacing={1}>
-            <Grid item xs={6} className={classes.helpboxBordered}>
+            <Grid item xs={12} md={6} className={classes.helpboxBordered}>
               <Grid container spacing={1}>
                 <Grid item xs={4}>
                   <MailOutlineIcon className={classes.icon}/>
@@ -29,7 +29,7 @@ export default function HelpBox() {
                 </Grid>
               </Grid>
             </Grid>
-            <Grid item xs={6} className={classes.helpboxBordered}>
+            <Grid item xs={12} md={6} className={classes.helpboxBordered}>
               <Grid container spacing={1}>
                 <Grid item xs={4}>
                   <PhoneIcon className={classes.icon}/>

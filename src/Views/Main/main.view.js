@@ -19,20 +19,24 @@ export default function Main() {
             <h3>These Pilots are perfect for the Frunge Look</h3>
             <hr style={{ width: 60, marginBottom: 60 }} />
           </Grid>
-          <Grid item xs={4}>
+          <Grid item sm={12} lg={4}>
             <StylebyCharacterInfo 
-            image="/images/characters/pankaj.jpg" 
+            key="pankaj__"
+            image="images/characters/pankaj.jpg" 
             description= {["The iron-fisted ",<span className={classes.colorRed}>Akandananad Tripathy</span>," is a millionaire carpet exporter and mafia don of Mirzapur"]}
             />
           </Grid>
-          <Grid item xs={4}>
+          <Grid item sm={12} lg={4}>
             <StylebyCharacterInfo 
-            image="/images/characters/munna.jpg"
+            key="munna__"
+            image="images/characters/munna.jpg"
             description= {["Akhandanand's son, ",<span className={classes.colorRed}>Munna Tripathy</span>," is power hungry and will not stop at anything to inherit his father's legacy"]}
             />
           </Grid>
-          <Grid item xs={4}>
-            <StylebyCharacterInfo image="/images/characters/maurya.jpg"
+          <Grid item sm={12} lg={4}>
+            <StylebyCharacterInfo 
+            image="images/characters/maurya.jpg"
+            key="maurya__"
             description= {["An honest cop, ",<span className={classes.colorRed}>Maurya Saab</span>," who goes an extra mile to eliminate the bad and the over-powering crime in the city"]}
             />
           </Grid>
